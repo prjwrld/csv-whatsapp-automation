@@ -1,20 +1,30 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# CSV WhatsApp Automation  
 
-# Run and deploy your AI Studio app
+Ever wished your spreadsheet could slide into DMs for you? This project does just that. It's a React and TypeScript app that reads a CSV of contacts, lets you pick the phone column, and then fires up WhatsApp chats for each person. You craft one message, and the app handles the repetitive clicking.  
 
-This contains everything you need to run your app locally.
+## How It Works  
 
-View your app in AI Studio: https://ai.studio/apps/drive/13Upr6KraCAJFCc9SoPkt-Wnr-GFqoBvG
+1. Upload your CSV file of contacts.  
+2. Tell the app which column has the phone numbers.  
+3. Write the message you want to send.  
+4. Sit back as the app opens a WhatsApp chat for each number in a pop up friendly flow.  
 
-## Run Locally
+Behind the scenes it's built with Vite, React and TypeScript, so it's fast and easy to hack on. Think of it as your own messaging assistant that never gets tired.  
 
-**Prerequisites:**  Node.js
+## Features  
 
+- CSV import: drop in a CSV and you're good to go.  
+- Column selection: choose the column that holds the phone numbers, no guesswork.  
+- Message template: write a single message and reuse it for every contact.  
+- Automated chat launching: opens each chat one after another so you can send with a click.  
+- Built for speed: uses React with Vite and TypeScript for a snappy dev experience.  
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Getting Started  
+
+To run the app locally you'll need Node.js installed.  
+
+1. Install dependencies with `npm install`.  
+2. If you're using the Gemini API, create a `.env.local` file and set `GEMINI_API_KEY` to your Contem API key.  
+3. Run the app with `npm run dev`.  
+
+Feel free to riff on the code, add personalization tokens, or integrate more platforms. This repo is a clean starting point for building out automations that blend tech with real world hustle.
