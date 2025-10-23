@@ -1,0 +1,5 @@
+{
+  "name": "WhatsApp CSV Messenger",
+  "description": "An automation app to send bulk WhatsApp messages. Upload a CSV file, select the column with phone numbers, compose your message, and quickly open WhatsApp chats for each contact.",
+  "requestFramePermissions": []
+}
